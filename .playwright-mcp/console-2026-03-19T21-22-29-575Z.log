@@ -1,0 +1,8 @@
+[    1835ms] [ERROR] React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. asChild aschild @ http://localhost:3000/_next/static/chunks/09h0_next_dist_0pvqlh8._.js:3272
+[  324178ms] [WARNING] [HMR] Invalid message: {"isTrusted":true}
+TypeError: Cannot convert undefined or null to object
+    at Object.keys (<anonymous>)
+    at extractModulesFromTurbopackMessage (http://localhost:3000/_next/static/chunks/09h0_next_dist_client_12e~~y-._.js:13631:39)
+    at TurbopackHmr.onTurbopackMessage (http://localhost:3000/_next/static/chunks/09h0_next_dist_client_12e~~y-._.js:13578:32)
+    at processMessage (http://localhost:3000/_next/static/chunks/09h0_next_dist_client_12e~~y-._.js:13936:30)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/09h0_next_dist_client_12e~~y-._.js:13335:52) @ http://localhost:3000/_next/static/chunks/09h0_next_dist_0pvqlh8._.js:2431
