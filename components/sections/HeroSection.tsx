@@ -93,6 +93,7 @@ export function HeroSection() {
               src='/coach-obafemi-hero.png'
               alt='Coach Obafemi'
               fill
+              sizes="(max-width: 1024px) 0vw, 420px"
               className='object-cover object-top'
               priority
             />
