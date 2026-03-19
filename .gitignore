@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.*
+.playwright-mcp/
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
