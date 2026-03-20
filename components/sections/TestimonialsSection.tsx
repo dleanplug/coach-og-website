@@ -4,7 +4,7 @@ import { testimonialsList } from "@/lib/constants";
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="reveal px-20 py-[100px] bg-off-white max-lg:px-6 max-lg:py-[72px]">
+    <section id="testimonials" className="reveal page-padding py-[100px] bg-off-white  max-lg:py-[72px]">
       <SectionHeading
         tag="Impact Stories"
         title={<>Words from <br />the <em className="italic text-primary">Transformed</em></>}

@@ -3,7 +3,7 @@ import { PodcastEqualizer } from "@/components/shared/PodcastEqualizer";
 
 export function PodcastSection() {
   return (
-    <section id="podcast" className="reveal px-20 py-[100px] bg-secondary text-white max-lg:px-6 max-lg:py-[72px]">
+    <section id="podcast" className="reveal page-padding py-[100px] bg-secondary text-white  max-lg:py-[72px]">
       <div className="grid grid-cols-2 gap-16 items-center max-lg:grid-cols-1 max-lg:gap-12">
         {/* Left column */}
         <div>

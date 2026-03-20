@@ -2,7 +2,7 @@ import { SectionHeading } from "@/components/shared/SectionHeading";
 
 export function PhilosophySection() {
   return (
-    <section className="reveal py-20 px-20 border-b border-accent/20 max-lg:px-6 max-lg:py-[72px]">
+    <section className="reveal py-20 page-padding border-b border-accent/20  max-lg:py-[72px]">
       <div className="max-w-[800px] mx-auto text-center">
         <SectionHeading
           tag="The OG Philosophy"

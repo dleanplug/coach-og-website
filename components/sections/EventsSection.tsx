@@ -6,7 +6,7 @@ export function EventsSection() {
   return (
     <section
       id='events'
-      className='reveal px-20 py-[100px] bg-warm-white max-lg:px-6 max-lg:py-[72px]'>
+      className='reveal page-padding py-[100px] bg-warm-white  max-lg:py-[72px]'>
       <SectionHeading
         tag='Live & Virtual Engagements'
         title={

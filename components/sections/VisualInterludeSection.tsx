@@ -2,7 +2,7 @@ import { StatCard } from "@/components/shared/StatCard";
 
 export function VisualInterludeSection() {
   return (
-    <section className="reveal py-20 px-20 relative overflow-hidden bg-brand-red-dark flex items-center justify-center max-lg:px-6 max-lg:py-16">
+    <section className="reveal py-20 page-padding relative overflow-hidden bg-brand-red-dark flex items-center justify-center  max-lg:py-16">
       <div className="flex gap-[46px] items-center text-white/50 relative z-10 max-lg:flex-col max-lg:gap-8 max-lg:text-center">
         <h3 className="font-playfair text-[2rem] font-bold text-white mb-1.5 leading-[1.2]">
           Designed for Impact.<br />Built for Legacy.

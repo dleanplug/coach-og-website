@@ -21,7 +21,7 @@ export function HeroSection() {
       />
 
       {/* Left column */}
-      <div className='flex flex-col justify-center px-20 py-20 relative z-10 animate-[fadeUp_1s_0.3s_both] max-lg:px-6 max-lg:py-16'>
+      <div className='flex flex-col justify-center page-padding py-20 relative z-10 animate-[fadeUp_1s_0.3s_both]  max-lg:py-16'>
         {/* Eyebrow */}
         <div className='flex items-center gap-3.5 text-[0.68rem] tracking-[5px] uppercase text-accent mb-7'>
           <span className='w-9 h-px bg-accent shrink-0' aria-hidden='true' />
@@ -34,7 +34,7 @@ export function HeroSection() {
         </h1>
 
         {/* Sub-identity */}
-        <div className='font-display text-base tracking-[8px] text-white/35 mb-8'>
+        <div className='font-display text-base tracking-[8px] text-white/35 mb-8 uppercase'>
           Also known as OG
         </div>
 
@@ -79,7 +79,7 @@ export function HeroSection() {
       </div>
 
       {/* Right column — photo placeholder */}
-      <div className='relative flex items-center justify-center px-20 py-20 animate-[fadeUp_1s_0.5s_both] z-10 max-lg:hidden'>
+      <div className='relative flex items-center justify-center page-padding py-20 animate-[fadeUp_1s_0.5s_both] z-10 max-lg:hidden'>
         <div className='relative w-full max-w-[420px]'>
           {/* Offset border frame */}
           <div
@@ -93,7 +93,7 @@ export function HeroSection() {
               src='/coach-obafemi-hero.png'
               alt='Coach Obafemi'
               fill
-              sizes="(max-width: 1024px) 0vw, 420px"
+              sizes='(max-width: 1024px) 0vw, 420px'
               className='object-cover object-top'
               priority
             />
@@ -101,15 +101,15 @@ export function HeroSection() {
             {/* Gradient overlay */}
             <div
               aria-hidden='true'
-              className='absolute bottom-0 left-0 right-0 h-1/2 z-0 pointer-events-none'
+              className='absolute bottom-0 left-0 right-0 h-3/5 z-0 pointer-events-none'
               style={{
                 background:
-                  "linear-gradient(to top, rgba(10,17,40,0.95) 0%, rgba(10,17,40,0.6) 50%, transparent 100%)",
+                  "linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.4) 75%, transparent 100%)",
               }}
             />
 
             {/* Name badge */}
-            <div className='absolute bottom-10 left-0 right-0 z-10 px-7 py-6'>
+            <div className='absolute bottom-0 left-0 right-0 z-10 px-7 py-6'>
               <div className='font-playfair text-2xl font-bold text-white tracking-[1px]'>
                 Coach Obafemi
               </div>
@@ -120,7 +120,7 @@ export function HeroSection() {
           </div>
 
           {/* Floating stat */}
-          <div className='absolute -bottom-12 -left-8 z-20 bg-accent text-secondary px-6 py-3 rounded-[4px] shadow-[0_20px_40px_rgba(0,0,0,0.3)] min-w-[160px]'>
+          <div className='absolute bottom-24 -left-8 z-20 bg-accent text-secondary px-6 py-3 rounded-[4px] shadow-[0_20px_40px_rgba(0,0,0,0.3)] min-w-[160px]'>
             <h3 className='font-playfair text-[2.8rem] font-black leading-none text-secondary'>
               500+
             </h3>

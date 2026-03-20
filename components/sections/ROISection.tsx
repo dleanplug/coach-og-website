@@ -5,7 +5,7 @@ export function ROISection() {
   return (
     <section className="reveal flex bg-white max-lg:flex-col-reverse">
       {/* Left column — Red block */}
-      <div className="flex-1 bg-primary text-white p-20 flex flex-col justify-center max-lg:px-6 max-lg:py-16">
+      <div className="flex-1 bg-primary text-white p-20 flex flex-col justify-center  max-lg:py-16">
         <SectionHeading
           tag="Metrics of Transformation"
           title={<>The Real <em className="italic text-accent shrink-0">ROI</em> of Coaching</>}

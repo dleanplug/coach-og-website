@@ -4,7 +4,7 @@ import { servicesList } from "@/lib/constants";
 
 export function ServicesSection() {
   return (
-    <section id="services" className="reveal px-20 py-[100px] bg-off-white max-lg:px-6 max-lg:py-[72px]">
+    <section id="services" className="reveal page-padding py-[100px] bg-off-white  max-lg:py-[72px]">
       <div className="flex justify-between items-end mb-14 max-lg:flex-col max-lg:items-start max-lg:gap-6">
         <SectionHeading
           tag="Core Competencies"

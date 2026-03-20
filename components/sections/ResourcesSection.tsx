@@ -4,7 +4,7 @@ import { resourcesList, LINKS } from "@/lib/constants";
 
 export function ResourcesSection() {
   return (
-    <section id="resources" className="reveal px-20 py-[100px] bg-white max-lg:px-6 max-lg:py-[72px]">
+    <section id="resources" className="reveal page-padding py-[100px] bg-white  max-lg:py-[72px]">
       <div className="flex justify-between items-end mb-[72px] max-lg:flex-col max-lg:items-start max-lg:gap-6">
         <SectionHeading
           tag="Digital Library"

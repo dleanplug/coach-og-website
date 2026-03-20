@@ -5,7 +5,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="reveal grid grid-cols-2 gap-20 px-20 py-[100px] bg-card items-start max-lg:grid-cols-1 max-lg:gap-12 max-lg:px-6 max-lg:py-[72px]"
+      className="reveal grid grid-cols-2 gap-20 page-padding py-[100px] bg-card items-start max-lg:grid-cols-1 max-lg:gap-12  max-lg:py-[72px]"
     >
       {/* Text column */}
       <div>

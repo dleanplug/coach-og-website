@@ -4,7 +4,7 @@ import { navLinks } from "@/lib/constants";
 
 export function Navbar() {
   return (
-    <nav className='fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-16 py-[18px] bg-secondary/95 backdrop-blur-lg border-b border-accent/20 animate-[fadeDown_0.8s_ease_both] max-lg:px-6'>
+    <nav className='fixed top-0 left-0 right-0 z-50 flex items-center justify-between page-padding py-[18px] bg-secondary/95 backdrop-blur-lg border-b border-accent/20 animate-[fadeDown_0.8s_ease_both] '>
       <Link
         href='#hero'
         className='flex items-center gap-4 font-display text-2xl tracking-[4px] text-accent uppercase'>

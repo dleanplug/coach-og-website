@@ -4,7 +4,7 @@ import { industriesList } from "@/lib/constants";
 
 export function IndustriesSection() {
   return (
-    <section id="industries" className="reveal px-20 py-[100px] bg-secondary text-white max-lg:px-6 max-lg:py-[72px]">
+    <section id="industries" className="reveal page-padding py-[100px] bg-secondary text-white  max-lg:py-[72px]">
       <SectionHeading
         tag="Cross-sector Expertise"
         title="11+ Industries Impacted"

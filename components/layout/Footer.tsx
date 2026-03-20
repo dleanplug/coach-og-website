@@ -3,7 +3,7 @@ import { navLinks, quickLinks } from "@/lib/constants";
 
 export function Footer() {
   return (
-    <footer className="bg-secondary pt-14 pb-9 px-20 max-lg:px-6 max-lg:pt-12 max-lg:pb-7">
+    <footer className="bg-secondary pt-14 pb-9 page-padding  max-lg:pt-12 max-lg:pb-7">
       <div className="grid grid-cols-[2fr_1fr_1fr] gap-[60px] pb-11 border-b border-white/6 max-lg:grid-cols-1 max-lg:gap-8">
         {/* Brand column */}
         <div>

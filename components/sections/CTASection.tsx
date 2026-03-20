@@ -8,7 +8,7 @@ export function CTASection() {
         items={["Execute With Precision", "Build For Legacy", "Structure For Speed"]}
       />
 
-      <div className="reveal px-20 py-[120px] bg-card text-center flex flex-col items-center max-lg:px-6 max-lg:py-20">
+      <div className="reveal page-padding py-[120px] bg-card text-center flex flex-col items-center  max-lg:py-20">
         <SectionHeading
           tag="Your Next Move"
           title={<>The cost of staying the same is higher than the <br className="max-lg:hidden" /><em className="italic text-primary">price of transformation.</em></>}

@@ -66,7 +66,7 @@
   --card-foreground: oklch(0.15 0.02 18);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0.02 18);
-  --primary: oklch(0.3 0.13 18);
+  --primary: #8b1a1a;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.14 0.03 240);
   --secondary-foreground: oklch(0.985 0 0);
@@ -92,8 +92,8 @@
   --sidebar-accent-foreground: oklch(0.14 0.03 240);
   --sidebar-border: oklch(0.67 0.11 70 / 20%);
   --sidebar-ring: oklch(0.67 0.11 70);
-  --brand-red-dark: oklch(0.21 0.1 18);
-  --brand-red-mid: oklch(0.35 0.14 18);
+  --brand-red-dark: #5c0e0e;
+  --brand-red-mid: #a82020;
   --brand-gold-light: oklch(0.75 0.12 70);
   --brand-gold-pale: oklch(0.91 0.06 70);
   --brand-navy-mid: oklch(0.21 0.04 240);
@@ -123,9 +123,9 @@
   --input: oklch(1 0 0 / 12%);
   --ring: oklch(0.67 0.11 70);
   --chart-1: oklch(0.67 0.11 70);
-  --chart-2: oklch(0.3 0.13 18);
+  --chart-2: #8b1a1a;
   --chart-3: oklch(0.75 0.12 70);
-  --chart-4: oklch(0.35 0.14 18);
+  --chart-4: #a82020;
   --chart-5: oklch(0.91 0.06 70);
   --sidebar: oklch(0.21 0.04 240);
   --sidebar-foreground: oklch(0.95 0 0);
@@ -135,6 +135,10 @@
   --sidebar-accent-foreground: oklch(0.95 0 0);
   --sidebar-border: oklch(1 0 0 / 8%);
   --sidebar-ring: oklch(0.67 0.11 70);
+}
+
+@utility page-padding {
+  @apply px-28 max-lg:px-8;
 }
 
 @keyframes fadeUp {
