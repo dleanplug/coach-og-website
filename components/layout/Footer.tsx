@@ -62,7 +62,10 @@ export function Footer() {
 
       {/* Bottom bar */}
       <div className='pt-7 flex justify-between items-center text-[0.72rem] text-white/20 max-lg:flex-col max-lg:gap-2.5 max-lg:text-center'>
-        <span>© 2026 Coach Obafemi Samson Ogunyoye. All rights reserved.</span>
+        <span>
+          © {new Date().getFullYear()} Coach Obafemi Samson Ogunyoye. All rights
+          reserved.
+        </span>
         <span>Designed for impact. Built for legacy.</span>
       </div>
     </footer>
