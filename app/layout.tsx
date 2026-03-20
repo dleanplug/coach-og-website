@@ -2,7 +2,7 @@ import {
   Playfair_Display,
   Plus_Jakarta_Sans,
   Geist_Mono,
-  Oswald,
+  Alumni_Sans,
 } from "next/font/google";
 
 import type { Metadata } from "next";
@@ -24,10 +24,10 @@ const jakarta = Plus_Jakarta_Sans({
   variable: "--font-sans",
 });
 
-const oswald = Oswald({
+const alumni = Alumni_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-display",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-alumni",
 });
 
 const geistMono = Geist_Mono({
@@ -53,7 +53,7 @@ export default function RootLayout({
         "h-full antialiased",
         playfair.variable,
         jakarta.variable,
-        oswald.variable,
+        alumni.variable,
         geistMono.variable,
       )}>
       <body className='min-h-full flex flex-col'>

@@ -21,10 +21,9 @@ export function SectionHeading({
         className={cn(
           "flex items-center gap-3 text-[0.65rem] tracking-[4px] uppercase text-accent mb-3.5",
           center ? "justify-center" : "",
-        )}
-      >
+        )}>
         {!center && (
-          <span className="w-7 h-px bg-accent shrink-0" aria-hidden="true" />
+          <span className='w-7 h-px bg-accent shrink-0' aria-hidden='true' />
         )}
         {tag}
       </div>
@@ -33,8 +32,7 @@ export function SectionHeading({
           "font-playfair text-[clamp(2rem,3.2vw,3.4rem)] font-bold leading-[1.15]",
           light ? "text-white" : "text-text-dark",
           center ? "text-center" : "",
-        )}
-      >
+        )}>
         {title}
       </h2>
     </div>

@@ -6,7 +6,8 @@
 
 @theme inline {
   --font-playfair: var(--font-playfair);
-  --font-display: var(--font-display);
+  --font-alumni: var(--font-alumni);
+  --font-display: var(--font-alumni);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
@@ -68,7 +69,7 @@
   --popover-foreground: oklch(0.15 0.02 18);
   --primary: #8b1a1a;
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.14 0.03 240);
+  --secondary: #0d1520;
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.95 0.02 80);
   --muted-foreground: oklch(0.52 0.04 40);
@@ -98,7 +99,7 @@
   --brand-gold-pale: oklch(0.91 0.06 70);
   --brand-navy-mid: oklch(0.21 0.04 240);
   --off-white: oklch(0.98 0.01 85);
-  --warm-white: oklch(0.95 0.02 80);
+  --warm-white: #faf8f4;
   --text-dark: oklch(0.15 0.02 18);
   --text-muted-brand: oklch(0.52 0.04 40);
 }

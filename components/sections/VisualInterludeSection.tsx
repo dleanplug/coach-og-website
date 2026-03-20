@@ -1,25 +1,41 @@
-import { StatCard } from "@/components/shared/StatCard";
-
 export function VisualInterludeSection() {
   return (
-    <section className="reveal py-20 page-padding relative overflow-hidden bg-brand-red-dark flex items-center justify-center  max-lg:py-16">
-      <div className="flex gap-[46px] items-center text-white/50 relative z-10 max-lg:flex-col max-lg:gap-8 max-lg:text-center">
-        <h3 className="font-playfair text-[2rem] font-bold text-white mb-1.5 leading-[1.2]">
-          Designed for Impact.<br />Built for Legacy.
-        </h3>
-        
-        <div className="w-px h-[60px] bg-white/20 max-lg:w-12 max-lg:h-px" />
-        
-        <StatCard number="250+" label="Global Events Hosted/Spoken At" variant="red" className="border-none px-0 py-0 hover:translate-y-0" />
-        
-        <div className="w-px h-[60px] bg-white/20 max-lg:w-12 max-lg:h-px" />
-        
-        <StatCard number="7M+" label="Naira Generated in Revenue for Clients" variant="red" className="border-none px-0 py-0 hover:translate-y-0" />
+    <section className="reveal page-padding py-[72px] bg-accent flex gap-20 items-center max-lg:flex-col max-lg:gap-10 max-lg:py-14">
+      <div className="font-playfair text-[clamp(1.8rem,2.8vw,2.8rem)] font-bold leading-[1.25] text-secondary flex-[2]">
+        &ldquo;To be a person of high value is a responsibility.
+        <em className="italic block mt-1">To pour that value into others is a calling.&rdquo;</em>
+        <div className="mt-6 font-sans text-[0.75rem] tracking-[3px] uppercase text-secondary/50 font-medium">
+          COACH OBAFEMI OGUNYOYE
+        </div>
       </div>
-      
-      {/* Background watermark */}
-      <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-[45%] font-display text-[22rem] text-white/2 tracking-[20px] select-none pointer-events-none whitespace-nowrap">
-        IMPACT
+
+      <div className="flex-[1] flex flex-col gap-6">
+        <div className="border-l-2 border-secondary/20 pl-5">
+          <div className="font-playfair text-[2.4rem] font-black text-secondary leading-none">
+            500+
+          </div>
+          <div className="text-[0.7rem] tracking-[1.5px] uppercase text-secondary/60 mt-1">
+            Individuals Transformed
+          </div>
+        </div>
+
+        <div className="border-l-2 border-secondary/20 pl-5">
+          <div className="font-playfair text-[2.4rem] font-black text-secondary leading-none">
+            300+
+          </div>
+          <div className="text-[0.7rem] tracking-[1.5px] uppercase text-secondary/60 mt-1">
+            SMEs Supported
+          </div>
+        </div>
+
+        <div className="border-l-2 border-secondary/20 pl-5">
+          <div className="font-playfair text-[2.4rem] font-black text-secondary leading-none">
+            11+
+          </div>
+          <div className="text-[0.7rem] tracking-[1.5px] uppercase text-secondary/60 mt-1">
+            Industries Served
+          </div>
+        </div>
       </div>
     </section>
   );
