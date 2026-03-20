@@ -7,7 +7,7 @@ export function Navbar() {
     <nav className='fixed top-0 left-0 right-0 z-50 flex items-center justify-between page-padding py-[18px] bg-secondary/95 backdrop-blur-lg border-b border-accent/20 animate-[fadeDown_0.8s_ease_both] '>
       <Link
         href='#hero'
-        className='flex items-center gap-4 font-display text-2xl tracking-[4px] text-accent uppercase'>
+        className='flex items-center gap-4 font-alumni text-2xl tracking-[4px] text-accent uppercase'>
         <Image src='/logo-white.png' alt='OG Logo' width={60} height={60} />
         {/* Coach OG */}
       </Link>

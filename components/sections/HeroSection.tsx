@@ -34,7 +34,7 @@ export function HeroSection() {
         </h1>
 
         {/* Sub-identity */}
-        <div className='font-display text-base tracking-[8px] text-white/35 mb-8 uppercase'>
+        <div className='font-alumni text-base tracking-[8px] text-white/35 mb-8 uppercase'>
           Also known as OG
         </div>
 

@@ -15,7 +15,11 @@ export const navLinks = [
 
 export const quickLinks = [
   { href: LINKS.selarStore, label: "Resource Store", external: true },
-  { href: LINKS.profitMasterclass, label: "Profit Masterclass", external: true },
+  {
+    href: LINKS.profitMasterclass,
+    label: "Profit Masterclass",
+    external: true,
+  },
   { href: "#cta", label: "Work With Me", external: false },
   { href: "#podcast", label: "Podcast", external: false },
   { href: "#testimonials", label: "Testimonials", external: false },
@@ -51,53 +55,130 @@ export const servicesList = [
     number: "01",
     icon: "🏗️",
     title: "Business Coaching and Strategy",
-    description: "From scattered ideas to structured operations. I help entrepreneurs build systems, clarify strategy, and move from idea stage to a real, functioning, growing business.",
+    description:
+      "From scattered ideas to structured operations. I help entrepreneurs build systems, clarify strategy, and move from idea stage to a real, functioning, growing business.",
   },
   {
     number: "02",
     icon: "🎯",
     title: "Career Coaching and Development",
-    description: "Navigating transitions, pursuing growth, or feeling stuck. I help career professionals gain clarity, move with purpose, and build a professional life they are proud of.",
+    description:
+      "Navigating transitions, pursuing growth, or feeling stuck. I help career professionals gain clarity, move with purpose, and build a professional life they are proud of.",
   },
   {
     number: "03",
     icon: "🧠",
     title: "Life and Mindset Coaching",
-    description: "I specialize in dismantling the mental limitations that keep high-capacity people small. Real growth begins on the inside, and that is exactly where we start.",
+    description:
+      "I specialize in dismantling the mental limitations that keep high-capacity people small. Real growth begins on the inside, and that is exactly where we start.",
   },
   {
     number: "04",
     icon: "⚡",
     title: "Performance and Behavioral Coaching",
-    description: "Your patterns and habits determine your results. I work with you at the behavioral level to build sustainable habits and unlock consistent, peak performance.",
+    description:
+      "Your patterns and habits determine your results. I work with you at the behavioral level to build sustainable habits and unlock consistent, peak performance.",
   },
   {
     number: "05",
     icon: "💰",
     title: "Financial Coaching and Profit Systems",
-    description: "Sales do not always equal profit. I help business owners understand money flow, identify the hidden leaks killing their profit, and build a simple system to protect their earnings.",
+    description:
+      "Sales do not always equal profit. I help business owners understand money flow, identify the hidden leaks killing their profit, and build a simple system to protect their earnings.",
   },
   {
     number: "06",
     icon: "🌐",
     title: "Digital Strategy and AI Coaching",
-    description: "A futurist and tech enthusiast, I help businesses and professionals leverage digital marketing, AI tools, and emerging technology for real competitive advantage.",
+    description:
+      "A futurist and tech enthusiast, I help businesses and professionals leverage digital marketing, AI tools, and emerging technology for real competitive advantage.",
   },
 ];
 
 export const industriesList = [
-  { icon: "🏦", name: "Banking and Finance", sub: "Financial institutions, investment, fintech" },
-  { icon: "🌾", name: "Agriculture", sub: "Agribusiness, value chains, rural enterprise" },
-  { icon: "🎓", name: "Education", sub: "Schools, EdTech, learning institutions" },
-  { icon: "🏥", name: "Health", sub: "Healthcare providers, wellness, medtech" },
-  { icon: "🚚", name: "Logistics and Transport", sub: "Supply chain, last-mile delivery, freight" },
-  { icon: "🏘️", name: "Real Estate", sub: "Property, development, facility management" },
-  { icon: "💻", name: "Tech and IT", sub: "Software, digital products, IT services" },
-  { icon: "🛒", name: "Retail and E-commerce", sub: "Consumer goods, online retail, trade" },
-  { icon: "🍽️", name: "Hospitality", sub: "Hotels, restaurants, events, tourism" },
-  { icon: "📢", name: "Media and Communications", sub: "Content, PR, broadcasting, journalism" },
-  { icon: "⛪", name: "Faith and Non-profit", sub: "Churches, NGOs, community development" },
-  { icon: "➕", name: "And More", sub: "If you are building something, Coach OG has tools for you" },
+  {
+    icon: "🏦",
+    name: "Banking and Finance",
+    sub: "Financial institutions, investment, fintech",
+  },
+  {
+    icon: "🌾",
+    name: "Agriculture",
+    sub: "Agribusiness, value chains, rural enterprise",
+  },
+  {
+    icon: "🎓",
+    name: "Education",
+    sub: "Schools, EdTech, learning institutions",
+  },
+  {
+    icon: "🏥",
+    name: "Health",
+    sub: "Healthcare providers, wellness, medtech",
+  },
+  {
+    icon: "🚚",
+    name: "Logistics and Transport",
+    sub: "Supply chain, last-mile delivery, freight",
+  },
+  {
+    icon: "🏘️",
+    name: "Real Estate",
+    sub: "Property, development, facility management",
+  },
+  {
+    icon: "💻",
+    name: "Tech and IT",
+    sub: "Software, digital products, IT services",
+  },
+  {
+    icon: "🛒",
+    name: "Retail and E-commerce",
+    sub: "Consumer goods, online retail, trade",
+  },
+  {
+    icon: "🍽️",
+    name: "Hospitality",
+    sub: "Hotels, restaurants, events, tourism",
+  },
+  {
+    icon: "📢",
+    name: "Media and Communications",
+    sub: "Content, PR, broadcasting, journalism",
+  },
+  {
+    icon: "⛪",
+    name: "Faith and Non-profit",
+    sub: "Churches, NGOs, community development",
+  },
+  {
+    icon: "➕",
+    name: "And More",
+    sub: "If you are building something, Coach OG has tools for you",
+  },
+];
+
+export const pillars = [
+  {
+    icon: "👂",
+    title: "Listen First",
+    text: "I hear what you say and what you do not. Real solutions are found in the listening.",
+  },
+  {
+    icon: "🔍",
+    title: "Think Critically",
+    text: "I analyze, assess, and architect solutions designed to last far beyond the session.",
+  },
+  {
+    icon: "⚙️",
+    title: "Build Systems",
+    text: "I help you create structures that keep producing results in your business and your life.",
+  },
+  {
+    icon: "🚀",
+    title: "Multiply Value",
+    text: "My goal is not just your success. It is that your growth enables those around you to grow too.",
+  },
 ];
 
 export const testimonialsList = [
@@ -120,7 +201,7 @@ export const testimonialsList = [
   {
     text: "He is a resource. Whatever you bring to his table, he commits until there is a way forward. He is not quick to judge, and he never wastes an opportunity.",
     by: "Professional",
-  }
+  },
 ];
 
 export const metricsList = [
@@ -135,10 +216,12 @@ export const metricsList = [
 export const resourcesList = [
   {
     bannerText: "CLARITY",
-    bannerClass: "bg-gradient-to-br from-brand-navy-mid via-secondary to-[#0a1128]",
+    bannerClass:
+      "bg-gradient-to-br from-brand-navy-mid via-secondary to-[#0a1128]",
     type: "E-Book",
     title: "10 Questions Every Leader Must Answer",
-    description: "A profound diagnostic tool to discover if your current systems are supporting your ultimate vision.",
+    description:
+      "A profound diagnostic tool to discover if your current systems are supporting your ultimate vision.",
     linkLabel: "Download for free",
     href: "#",
   },
@@ -147,16 +230,19 @@ export const resourcesList = [
     bannerClass: "bg-gradient-to-br from-[#1a2b5c] via-[#243b7a] to-secondary",
     type: "Masterclass",
     title: "The Profit & Structure Blueprint",
-    description: "A 90-minute intensive audio masterclass on transitioning from a solo-operator to a structured business owner.",
+    description:
+      "A 90-minute intensive audio masterclass on transitioning from a solo-operator to a structured business owner.",
     linkLabel: "Get Access Now",
     href: LINKS.profitMasterclass,
   },
   {
     bannerText: "ACTION",
-    bannerClass: "bg-gradient-to-br from-brand-red-dark via-primary to-[#e03a3a]",
+    bannerClass:
+      "bg-gradient-to-br from-brand-red-dark via-primary to-[#e03a3a]",
     type: "Workbook",
     title: "The 90-Day Execution Planner",
-    description: "Bridge the gap between knowing what to do and actually getting it done with this daily accountability framework.",
+    description:
+      "Bridge the gap between knowing what to do and actually getting it done with this daily accountability framework.",
     linkLabel: "Purchase Planner",
     href: LINKS.executionPlanner,
   },
@@ -167,7 +253,8 @@ export const eventsList = [
     bannerText: "LAGOS",
     badge: "Upcoming",
     title: "The Structure Masterclass (Live)",
-    subtitle: "A 2-day immersive workshop for SMEs processing $100k+ annually but struggling with operational chaos.",
+    subtitle:
+      "A 2-day immersive workshop for SMEs processing $100k+ annually but struggling with operational chaos.",
     details: [
       { icon: "📅", text: "October 14-15, 2026" },
       { icon: "📍", text: "Lagos Oriental Hotel" },
@@ -182,7 +269,8 @@ export const eventsList = [
     bannerClass: "bg-gradient-to-br from-[#1a2b5c] via-[#243b7a] to-secondary",
     badge: "Virtual",
     title: "Career Mapping 101",
-    subtitle: "How to position yourself for global opportunities without leaving your current job.",
+    subtitle:
+      "How to position yourself for global opportunities without leaving your current job.",
     details: [
       { icon: "📅", text: "November 2, 2026" },
       { icon: "📍", text: "Zoom (Link sent on registration)" },

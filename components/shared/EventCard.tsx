@@ -53,7 +53,7 @@ export function EventCard({
         )}>
         <span
           aria-hidden='true'
-          className='font-display text-[2.5rem] tracking-[4px] text-white/8 text-center px-5 select-none pointer-events-none'>
+          className='font-alumni text-[2.5rem] tracking-[4px] text-white/8 text-center px-5 select-none pointer-events-none'>
           {bannerText}
         </span>
         {badge && (
