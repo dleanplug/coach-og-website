@@ -36,27 +36,27 @@ export function ResourceCard({
         )}>
         <span
           aria-hidden='true'
-          className='font-alumni text-5xl tracking-[6px] text-white/12 select-none pointer-events-none'>
+          className='font-alumni font-extralight text-[3.8rem] tracking-[4px] text-white/12 select-none pointer-events-none uppercase'>
           {bannerText}
         </span>
-        <span className='absolute top-3 right-3 bg-white/12 backdrop-blur-md text-white/70 text-[0.6rem] tracking-[2px] uppercase px-2.5 py-1 rounded-[2px]'>
+        <span className='absolute top-3 right-3 bg-white/10 backdrop-blur-sm text-white/70 text-[0.6rem] tracking-[2px] uppercase px-2.5 py-1 rounded-[2px]'>
           {type}
         </span>
       </div>
 
       {/* Body */}
-      <div className='px-[22px] pt-[22px] pb-[26px]'>
+      <div className='px-[22px] pt-[22px] pb-[26px] bg-white'>
         <h3 className='font-playfair text-[1.1rem] font-bold text-text-dark mb-2 leading-[1.3]'>
           {title}
         </h3>
-        <p className='text-[0.82rem] text-text-muted leading-[1.6] mb-[18px] font-light'>
+        <p className='text-[0.82rem] text-text-muted leading-[1.6] mb-[14px] font-light'>
           {description}
         </p>
         <Link
           href={href}
           target='_blank'
           rel='noopener noreferrer'
-          className='inline-flex items-center gap-1.5 text-[0.7rem] tracking-[2px] uppercase text-primary font-semibold no-underline transition-[gap] hover:gap-2.5'>
+          className='inline-flex items-center gap-1.5 text-[0.7rem] tracking-[2px] uppercase text-primary font-bold no-underline transition-[gap] hover:gap-2.5'>
           {linkLabel} <span>→</span>
         </Link>
       </div>

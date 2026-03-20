@@ -181,26 +181,37 @@ export const pillars = [
   },
 ];
 
-export const testimonialsList = [
+export interface Testimonial {
+  text: string;
+  by: string;
+  variant?: "dark" | "red" | "light";
+}
+
+export const testimonialsList: Testimonial[] = [
   {
     text: "You cannot be around Coach Obafemi and not think of getting better at what you do. He is always looking out for your strengths and your weaknesses. He is committed to every task before him, even when things do not make sense. He likes to keep his word, and he does. This Man is A Lot.",
     by: "Team Member",
+    variant: "dark",
   },
   {
     text: "If you approach Obafemi for anything, you can be sure he will have a valid solution. He is very knowledgeable and full of wisdom across different areas of life. He is sound.",
     by: "Coaching Client",
+    variant: "light",
   },
   {
     text: "He is a true mentor and a vast coach. One who does not waste an opportunity and is relentless in the pursuit of growth, both his own and yours.",
     by: "Business Owner",
+    variant: "light",
   },
   {
     text: "He invests in people. He does not mind putting himself in discomfort for the sake of others. His coaching goes beyond sessions. It becomes a life posture.",
     by: "Team Member",
+    variant: "red",
   },
   {
     text: "He is a resource. Whatever you bring to his table, he commits until there is a way forward. He is not quick to judge, and he never wastes an opportunity.",
     by: "Professional",
+    variant: "light",
   },
 ];
 
@@ -215,70 +226,110 @@ export const metricsList = [
 
 export const resourcesList = [
   {
-    bannerText: "CLARITY",
-    bannerClass:
-      "bg-gradient-to-br from-brand-navy-mid via-secondary to-[#0a1128]",
-    type: "E-Book",
-    title: "10 Questions Every Leader Must Answer",
-    description:
-      "A profound diagnostic tool to discover if your current systems are supporting your ultimate vision.",
-    linkLabel: "Download for free",
-    href: "#",
-  },
-  {
-    bannerText: "STRATEGY",
-    bannerClass: "bg-gradient-to-br from-[#1a2b5c] via-[#243b7a] to-secondary",
+    bannerText: "PROFIT",
+    bannerClass: "bg-linear-150 from-brand-red-dark to-brand-red-mid",
     type: "Masterclass",
-    title: "The Profit & Structure Blueprint",
+    title: "Business Profitability Masterclass",
     description:
-      "A 90-minute intensive audio masterclass on transitioning from a solo-operator to a structured business owner.",
-    linkLabel: "Get Access Now",
+      "Learn why your money disappears even when sales are good. Practical tools for cash tracking, profit protection, and financial clarity.",
+    linkLabel: "Get Access",
     href: LINKS.profitMasterclass,
   },
   {
-    bannerText: "ACTION",
-    bannerClass:
-      "bg-gradient-to-br from-brand-red-dark via-primary to-[#e03a3a]",
-    type: "Workbook",
-    title: "The 90-Day Execution Planner",
+    bannerText: "CAREER",
+    bannerClass: "bg-linear-150 from-secondary to-brand-navy-mid",
+    type: "Guide",
+    title: "Career and Growth Resources",
     description:
-      "Bridge the gap between knowing what to do and actually getting it done with this daily accountability framework.",
-    linkLabel: "Purchase Planner",
-    href: LINKS.executionPlanner,
+      "Templates, guides, and tools for career professionals. Designed to help you navigate your path, accelerate growth, and lead with confidence.",
+    linkLabel: "Browse Resources",
+    href: LINKS.selarStore,
+  },
+  {
+    bannerText: "MIND",
+    bannerClass: "bg-linear-150 from-[#3a2800] to-[#5c4010]",
+    type: "Coaching",
+    title: "Mindset and Business Tools",
+    description:
+      "From strategy frameworks to mindset coaching resources, these tools are built for entrepreneurs and leaders ready to operate at a new level.",
+    linkLabel: "Explore All",
+    href: LINKS.selarStore,
   },
 ];
 
 export const eventsList = [
   {
-    bannerText: "LAGOS",
-    badge: "Upcoming",
-    title: "The Structure Masterclass (Live)",
+    bannerText: "THE VANISHING PROFIT MYSTERY",
+    badge: "Live on YouTube",
+    title: "Why Money Finishes Even When Sales Are High",
     subtitle:
-      "A 2-day immersive workshop for SMEs processing $100k+ annually but struggling with operational chaos.",
+      "A 60-minute practical business class for entrepreneurs and business owners who make sales but still wonder where the money goes. Coach OG breaks down the 5 hidden profit leaks, how to track your cash, and how to build a simple system that protects your profit.",
     details: [
-      { icon: "📅", text: "October 14-15, 2026" },
-      { icon: "📍", text: "Lagos Oriental Hotel" },
+      { icon: "📅", text: "Friday, 20 March 2026 at 7:00 PM" },
+      { icon: "▶️", text: "YouTube Live Session" },
+      { icon: "🗂️", text: "Business Profitability Series" },
     ],
-    mainPrice: "₦150,000",
-    ctaLabel: "Secure Your Seat",
+    strikePrice: "Early Bird: ₦3,000",
+    mainPrice: "₦5,000",
+    ctaLabel: "Register Now",
     ctaHref: "#",
-    partners: ["Access Bank", "Lagos Innovates"],
+    partners: ["LEAN", "AGATE"],
   },
   {
-    bannerText: "GLOBAL",
-    bannerClass: "bg-gradient-to-br from-[#1a2b5c] via-[#243b7a] to-secondary",
-    badge: "Virtual",
-    title: "Career Mapping 101",
+    bannerText: "COMING",
+    bannerClass: "bg-gradient-to-br from-[#1a2b5c] to-secondary",
+    title: "Career Acceleration Masterclass",
     subtitle:
-      "How to position yourself for global opportunities without leaving your current job.",
-    details: [
-      { icon: "📅", text: "November 2, 2026" },
-      { icon: "📍", text: "Zoom (Link sent on registration)" },
-    ],
-    strikePrice: "$99",
-    mainPrice: "Free",
-    ctaLabel: "Register for Free",
+      "For professionals who want to move faster, earn more, and lead better. Coming soon.",
+
+    ctaLabel: "Join Waitlist",
     ctaHref: "#",
     compact: true,
+  },
+];
+
+export const podcastTopics = [
+  "Business Growth",
+  "Career Clarity",
+  "Mindset",
+  "Leadership",
+  "Faith and Work",
+  "Strategy",
+  "Money",
+  "Purpose",
+];
+
+export const skillsList = [
+  {
+    name: "Attentive Listening",
+    desc: "He hears what is said and what is not. Solutions live in the silence.",
+  },
+  {
+    name: "Strategic Thinking",
+    desc: "Long-term vision. Systems built to outlast the moment.",
+  },
+  {
+    name: "Systems and Documentation",
+    desc: "Creating structures that keep producing results without you.",
+  },
+  {
+    name: "Mindset Coaching",
+    desc: "Dismantling the mental ceilings that limit high-capacity people.",
+  },
+  {
+    name: "Public Speaking and Training",
+    desc: "He breaks things down until they click. Engaging, clear, powerful.",
+  },
+  {
+    name: "Business Development",
+    desc: "From idea to full execution. From scattered to structured.",
+  },
+  {
+    name: "Digital Marketing and AI",
+    desc: "Future-facing strategy for a digital and AI-driven world.",
+  },
+  {
+    name: "People Development",
+    desc: "Making every person a resource, to themselves and to those around them.",
   },
 ];

@@ -40,7 +40,7 @@ export function EventCard({
   return (
     <div
       className={cn(
-        "group rounded-[4px] overflow-hidden border border-accent/20 bg-card transition-all hover:-translate-y-1 hover:shadow-[0_24px_48px_rgba(0,0,0,0.08)] h-full",
+        "group rounded-[4px] overflow-hidden border border-accent/20 bg-card transition-all hover:-translate-y-1 hover:shadow-[0_24px_48px_rgba(0,0,0,0.08)]",
         className,
       )}>
       {/* Banner */}
@@ -106,7 +106,7 @@ export function EventCard({
               </span>
             )}
             {mainPrice && (
-              <span className='font-playfair text-[1.3rem] font-bold text-primary'>
+              <span className='mr-3 font-playfair text-[1.3rem] font-bold text-primary'>
                 {mainPrice}
               </span>
             )}
@@ -115,7 +115,7 @@ export function EventCard({
 
         <Link
           href={ctaHref}
-          className='ml-3 inline-flex justify-center items-center bg-primary text-primary-foreground border border-primary/80 rounded-[2px] px-4 py-3 text-[0.7rem] tracking-[2px] uppercase font-semibold hover:bg-accent hover:border-accent hover:text-secondary transition-all'
+          className='inline-flex justify-center items-center bg-primary text-primary-foreground border border-primary/80 rounded-[2px] px-4 py-3 text-[0.7rem] tracking-[2px] uppercase font-semibold hover:bg-accent hover:border-accent hover:text-secondary transition-all'
           {...(ctaHref.startsWith("http")
             ? { target: "_blank", rel: "noopener noreferrer" }
             : {})}>

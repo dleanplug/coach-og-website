@@ -6,12 +6,12 @@ export function EventsSection() {
   return (
     <section
       id='events'
-      className='reveal page-padding py-[100px] bg-warm-white  max-lg:py-[72px]'>
+      className='reveal page-padding py-[100px] bg-off-white  max-lg:py-[72px]'>
       <SectionHeading
-        tag='Live & Virtual Engagements'
+        tag='Live Trainings and Masterclasses'
         title={
           <>
-            Learn in the <em className='italic text-primary'>Room</em>
+            Upcoming <em className='italic text-primary'>Events</em>
           </>
         }
         className='mb-[72px]'
@@ -23,19 +23,19 @@ export function EventsSection() {
         <div className='flex flex-col gap-6'>
           <EventCard {...eventsList[1]} />
 
-          {/* Custom CTA block filling remaining space */}
-          <div className='bg-secondary text-white p-10 rounded-[4px] shadow-[0_20px_40px_rgba(0,0,0,0.1)] flex flex-col justify-center border border-accent/20 h-full min-h-[240px]'>
-            <h3 className='font-playfair text-[1.4rem] font-bold text-white mb-2 leading-[1.3]'>
-              Bring Coach OG to Your City or Organization
-            </h3>
-            <p className='text-[0.8rem] text-white/50 leading-[1.6] mb-6'>
-              Available for corporate training, keynote speaking, and
-              specialized executive retreats.
+          {/* Custom CTA block: More Events Loading */}
+          <div className='bg-brand-navy-mid text-white py-8 px-7 rounded-[4px] shadow-[0_20px_40px_rgba(0,0,0,0.1)] flex flex-col justify-center border border-white/5 h-full'>
+            <div className='text-white/35 text-[0.65rem] tracking-[3px] uppercase font-bold mb-4'>
+              More Events Loading
+            </div>
+            <p className='font-playfair text-base italic font-medium text-white/70 leading-normal'>
+              New trainings, masterclasses, and live sessions are always in the
+              pipeline. Subscribe to stay notified when the next one drops.
             </p>
             <a
-              href='#contact'
-              className='inline-block border border-accent text-accent px-6 py-2.5 rounded-[2px] text-[0.65rem] tracking-[2px] uppercase font-bold transition-all hover:bg-accent hover:text-secondary self-start w-auto text-center'>
-              Book for Speaking
+              href='#cta'
+              className='text-accent text-[0.7rem] tracking-[2px] uppercase font-bold mt-6 hover:translate-x-1 transition-transform inline-block'>
+              Stay Notified &rarr;
             </a>
           </div>
         </div>
